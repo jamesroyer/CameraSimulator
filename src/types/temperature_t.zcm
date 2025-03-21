@@ -1,0 +1,7 @@
+package Demo;
+
+struct temperature_t
+{
+	int64_t utime;		// Timestamp in microseconds
+	float degCelsius;	// Temperature in degrees celsius
+}

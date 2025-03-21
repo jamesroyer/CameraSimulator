@@ -1,0 +1,10 @@
+package Demo;
+
+struct heater_t
+{
+	const int32_t HOUSING=1, MOTOR=2;
+
+	int64_t utime;		// Timestamp in microseconds
+	int32_t heaterType;
+	boolean enabled;
+}

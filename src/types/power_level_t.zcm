@@ -1,0 +1,13 @@
+package Demo;
+
+struct power_level_t
+{
+	// POE1 : PoE Type 1 12.95 W
+	// POE2 : PoE Type 2 25.50 W
+	// POE3 : PoE Type 3 51 W
+	// POE4 : PoE Type 4 71 W
+	const int8_t UNKNOWN=0, POE1=1, POE2=2, POE3=3, POE4=4;
+
+	int64_t utime;		// Timestamp in microseconds
+	int8_t powerLevel;
+}

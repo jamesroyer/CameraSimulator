@@ -1,0 +1,6 @@
+package Demo;
+
+struct shutdown_t
+{
+	int64_t utime;		// Timestamp in microseconds
+}
